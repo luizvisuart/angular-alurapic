@@ -13,7 +13,8 @@ export class AppComponent {
   constructor(photoService: PhotoService){
     photoService.listFromUser('flavio')
       .subscribe(
-        photos => this.photos = photos
+        photos => {
+          this.photos = photos}
       );
   }
 }
