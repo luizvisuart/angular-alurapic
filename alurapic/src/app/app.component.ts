@@ -8,7 +8,7 @@ import { PhotoService } from './photos/Photo/photo.service';
 })
 export class AppComponent {
 
-  photos:Object[] = [];
+  photos:any[] = [];
 
   constructor(photoService: PhotoService){
     photoService.listFromUser('flavio')
