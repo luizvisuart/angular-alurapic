@@ -14,6 +14,7 @@ import { PhotoFormComponent } from './photo-form/photo-form.component';
   ],
   imports: [
     HttpClientModule,
+    // Module para usar as diretivas o angular como ngFor, ngIf, etc.
     CommonModule
   ]
 })
