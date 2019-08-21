@@ -7,7 +7,7 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 
 // Configura as rotas de minha aplicação
 const routes: Routes = [
-  { path: 'user/flavio', component: PhotoListComponent},
+  { path: 'user/:userName', component: PhotoListComponent},
   { path: 'p/add', component: PhotoFormComponent},
 
   // roteamento em caso de não existir a página
